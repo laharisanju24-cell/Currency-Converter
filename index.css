@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: linear-gradient(135deg, #c3dafe 0%, #edd1ff 50%, #ffd9f1 100%);
+}
+.container{
+    margin: 80px;
+    width: 450px;
+    height: 450px;
+    background: rgba(238, 244, 255, 0.5);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 12px 35px rgba(120, 120, 180, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+
+.container h2{
+    text-align: center;
+    color: #6c63a8;
+    margin-bottom: 25px;
+
+}
+.amount p,
+.from p,
+.to p{
+    color: #666;
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+.amount input{
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #cdebff;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    background: #fbfdff;
+}
+.amount input:focus{
+    border-color: #b39ddb;
+
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0;
+}
+.select-container{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #f8fff9;
+    border: 2px solid #d8f3dc;
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+.select-container img{
+    width: 30px;
+}
+.select-container select{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 15px;
+    color: #555;
+    cursor: pointer;
+
+}
+.dropdown i{
+    font-size: 22px;
+    color: #f6a56f;
+    margin-top: 30px;
+
+}
+.msg{
+    text-align: center;
+    padding: 12px;
+    background: #f4f1ff;
+    color: #6c63a8;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+
+}
+button{
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+    background: #3b65a1;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+}
+button:hover{
+    background:#6FA7F4;
+}
+button:active{
+    transform:scale(.98);
+}

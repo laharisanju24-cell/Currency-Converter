@@ -1,5 +1,5 @@
 ## Currency Converter
-A simple, lightweight currency converter web app built with Vanilla JavaScript, HTML, and CSS. It fetches live, real-time exchange rates from an open API and updates country flags dynamically based on the selected currency.
+A simple, lightweight currency converter web app built with JavaScript, HTML, and CSS. It fetches live, real-time exchange rates from an open API and updates country flags dynamically based on the selected currency.
 
 ## Features
 * Live Exchange Rates: Uses ://er-api.com for keyless, up-to-date conversion rates.
